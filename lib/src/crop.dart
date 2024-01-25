@@ -700,7 +700,7 @@ Uint8List _doCrop(List<dynamic> cropData) {
         width: rect.width.toInt(),
         height: rect.height.toInt(),
       ),
-      quality: 95
+      quality: 90,
     ),
   );
 }
